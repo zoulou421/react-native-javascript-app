@@ -34,7 +34,10 @@ export default function RootLayout() {
         {/*<Stack.Screen name="index" options={{title:"Home",headerShown:false}}/>
         <Stack.Screen name="contact" options={{title:"Contact US"}}/>
         */}
-        <Stack.Screen name="(kilotabs)" options={{ headerShown: false }} />
+       {/* 
+       <Stack.Screen name="(kilotabs)" options={{ headerShown: false }} />
+       */}
+       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />
